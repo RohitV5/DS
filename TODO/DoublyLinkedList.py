@@ -122,14 +122,14 @@ class DoublyLinkedList:
         return count
 
 # Example usage:
-# dll = DoublyLinkedList()
-# dll.insert_at_end(10)
-# dll.insert_at_end(20)
-# dll.insert_at_beginning(5)
-# dll.insert_after(10, 15)
+dll = DoublyLinkedList()
+dll.insert_at_end(10)
+dll.insert_at_end(20)
+dll.insert_at_beginning(5)
+dll.insert_after(10, 15)
 
-# dll.traverse_forward()     # Output: 5 <-> 10 <-> 15 <-> 20 <-> None
-# dll.traverse_backward()    # Output: 20 <-> 15 <-> 10 <-> 5 <-> None
+dll.traverse_forward()     # Output: 5 <-> 10 <-> 15 <-> 20 <-> None
+dll.traverse_backward()    # Output: 20 <-> 15 <-> 10 <-> 5 <-> None
 
 # print(dll.search(15))      # True
 # print(dll.length())        # 4
